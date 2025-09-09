@@ -22,4 +22,3 @@ if (firstNumber > secondNumber) {
     // TODO: Print that the numbers are equal
     console.log(firstNumber + " is equal to " + secondNumber);
 }
-ffgfgfgfg
