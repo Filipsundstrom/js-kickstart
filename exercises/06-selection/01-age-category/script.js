@@ -3,7 +3,7 @@
 
 const prompt = require('prompt-sync')();
 
-// TODO: Ask the user for their age
+const age = number(prompt("Enter your age: "));// TODO: Ask the user for their age
 // TODO: Convert the input to a number
 // TODO: Use if/else if statements to categorize the age:
 //       - 0-12: "You are a child."
