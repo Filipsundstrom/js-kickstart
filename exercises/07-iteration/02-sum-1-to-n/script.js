@@ -4,10 +4,15 @@
 const prompt = require('prompt-sync')();
 
 // TODO: Ask the user for a number N
+const n= Number(prompt("Enter your number: "));
+let sum = 0;
+for (let i = 1; i <= n; i++) {
+    sum += i;
+}
 // TODO: Convert the input to a number using Number()
 // TODO: Create a variable to store the sum (start with 0)
 // TODO: Use a for loop to go from 1 to N
 // TODO: Inside the loop, add the current number to the sum
 // TODO: Display the final result
 
-console.log("Replace this with your solution!");
+console.log("The sum of numbers from 1 to " + n +" is: " + sum);
